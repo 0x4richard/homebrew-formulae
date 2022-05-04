@@ -15,7 +15,7 @@ class OpenpomodoroCli < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
    #  system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-    system "go", "install", "github.com/open-pomodoro/openpomodoro-cli/cmd/pomodoro"
+    system "go", "install", "github.com/open-pomodoro/openpomodoro-cli/cmd/pomodoro@0.3.0"
     # bin.install "openpomodoroCli"
   end
 
