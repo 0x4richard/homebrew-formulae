@@ -16,7 +16,7 @@ class OpenpomodoroCli < Formula
    #  system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     # system "go", "install", "github.com/open-pomodoro/openpomodoro-cli/cmd/pomodoro@latest"
-    bin.install "openpomodoroCli"
+    bin.install "openpomodoro-cli"
   end
 
   test do
